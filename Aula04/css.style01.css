@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-boxg;
 }
 form {
   width: 30%;
@@ -19,4 +19,12 @@ input[type="submit"] {
   background-color: red;
   color: white;
   cursor: pointer;
+}
+#saida div {
+  widows: 62.5%;
+  padding: 10px;
+  box-shadow: 5px 5px 10px silver;
+  float: left;
+  font-family: courier;
+  font-size: 30px;
 }
