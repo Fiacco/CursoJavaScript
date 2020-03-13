@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="js/script02.js"></script>
+  </head>
+  <body id="body">
+    <div id="exibir">
+      <p id="texto">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+        excepturi nobis ducimus corporis repellat consequuntur dolorum nulla
+        delectus inventore maiores, distinctio voluptatum consequatur temporibus
+        impedit placeat ut, pariatur enim eos.
+      </p>
+      <p id="texto">
+        Iste veritatis aliquam et maxime nulla corporis consequuntur nihil
+        laudantium at nobis. Inventore natus nostrum totam fugiat sed eaque
+        asperiores, possimus, deserunt praesentium cum veniam quaerat ratione
+        nulla laborum! Culpa?
+      </p>
+      <p id="texto">
+        Enim alias quos debitis! Dolor, odit a harum officiis neque eaque odio
+        suscipit tempora sed perspiciatis excepturi nam perferendis soluta
+        voluptas deserunt iusto illo magni saepe blanditiis est? Sapiente,
+        necessitatibus!
+      </p>
+    </div>
+    <hr />
+    <form action="" onsubmit="return false">
+      <select name="elemento" id="elemento">
+        <option value="body">body</option>
+        <option value="exibir">exibir</option>
+        <option value="texto">texto</option>
+      </select>
+      <label>selecione uma propriedade:</label>
+      <select name="propriedade" id="propriedade">
+        <option value="padding">padding</option>
+        <option value="margin">margin</option>
+        <option value="font-size">font size</option>
+        <option value="font-family">font family</option>
+        <option value="font weight">font weight</option>
+        <option value="background-color">cor de fundo</option>
+        <option value="color">cor da fonte</option>
+        <option value="opacity">opacidade</option>
+        <option value="text-align">alinhamento do texto</option>
+        <option value="border">borda</option>
+      </select>
+      <label>digite o valor da propriedade</label>
+      <input type="text" name="valor" id="valor" />
+      <button onclick="mudar()">Mudar</button>
+    </form>
+  </body>
+</html>
