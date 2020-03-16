@@ -1,0 +1,19 @@
+* {
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+  font-family: arial;
+  font-size: 10pt;
+  border: 0;
+  border-bottom: 1px solid silver;
+  overflow: hidden;
+}
+
+button {
+  padding: 30px;
+  margin: 50px auto;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
